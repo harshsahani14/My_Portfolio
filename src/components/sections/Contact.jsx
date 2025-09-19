@@ -12,15 +12,15 @@ export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
+    // emailjs
+    //   .sendForm(
         
-      )
-      .then((result) => {
-        alert("Message Sent!");
-        setFormData({ name: "", email: "", message: "" });
-      })
-      .catch(() => alert("Oops! Something went wrong. Please try again."));
+    //   )
+    //   .then((result) => {
+    //     alert("Message Sent!");
+    //     setFormData({ name: "", email: "", message: "" });
+    //   })
+    //   .catch(() => alert("Oops! Something went wrong. Please try again."));
   };
 
   return (
